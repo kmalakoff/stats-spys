@@ -1,0 +1,47 @@
+{
+  "name": "fs-stats-spys",
+  "version": "1.0.0",
+  "description": "Helper for using sinon spys with fs.Stats",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "mocha test/spec/**/*.test.js",
+    "compat": "nvs 14,12,10,8,6,4,0.12,0.10,0.8 mocha-compat test/spec/**/*.test.js",
+    "lint": "eslint .",
+    "format": "prettier --write '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kmalakoff/fs-stats-spys.git"
+  },
+  "keywords": [
+    "fs",
+    "stats",
+    "spys",
+    "simon"
+  ],
+  "author": "Kevin Malakoff <kmalakoff@gmail.com> (https://github.com/kmalakoff)",
+  "license": "MIT",
+  "homepage": "https://github.com/kmalakoff/fs-stats-spys",
+  "dependencies": {
+    "sinon": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "fs-iterator": "^3.0.0",
+    "fs-generate": "^1.5.0",
+    "mocha": "^7.1.2",
+    "mocha-compat": "^3.5.5",
+    "nvs": "^0.1.5",
+    "prettier": "^2.0.5"
+  }
+}
