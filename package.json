@@ -1,6 +1,6 @@
 {
   "name": "fs-stats-spys",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper for using sinon spys with fs.Stats",
   "main": "index.js",
   "engines": {
@@ -37,8 +37,8 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "fs-iterator": "^3.0.0",
-    "fs-generate": "^1.7.0",
+    "fs-iterator": "^3.0.1",
+    "fs-generate": "^1.8.0",
     "mocha": "^7.1.2",
     "mocha-compat": "^3.5.5",
     "nvs": "^0.1.8",
