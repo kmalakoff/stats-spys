@@ -37,7 +37,7 @@
     "fs-iterator": "^3.0.3",
     "mocha-compat": "^3.5.5",
     "prettier": "^2.0.5",
-    "rimraf": "^3.0.2"
+    "rimraf": "^2.7.1"
   },
   "engines": {
     "node": ">=0.8.0"
