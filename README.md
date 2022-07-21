@@ -9,7 +9,7 @@ var Iterator = require('fs-iterator');
 
 var spys = statsSpys();
 
-var iterator = new Iterator(DIR, { alwaysStat: true, lstat: false });
+var iterator = new Iterator(TEST_DIR);
 iterator.forEach(
   function (entry) {
     spys(entry.stats);
