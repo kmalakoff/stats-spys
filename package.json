@@ -27,7 +27,7 @@
     "test:engines": "nvu engines npm test"
   },
   "dependencies": {
-    "sinon": "^2.4.1"
+    "sinon": "^14.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^5.30.7",
