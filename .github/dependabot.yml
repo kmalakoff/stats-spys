@@ -6,6 +6,7 @@ updates:
       interval: daily
     ignore:
       - dependency-name: 'sinon'
+      - dependency-name: 'rimraf'
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
