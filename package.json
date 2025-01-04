@@ -11,7 +11,7 @@
   "homepage": "https://github.com/kmalakoff/fs-stats-spys",
   "repository": {
     "type": "git",
-    "url": "git@github.com:kmalakoff/fs-stats-spys.git"
+    "url": "git+ssh://git@github.com/kmalakoff/fs-stats-spys.git"
   },
   "license": "MIT",
   "author": "Kevin Malakoff <kmalakoff@gmail.com> (https://github.com/kmalakoff)",
