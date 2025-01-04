@@ -7,7 +7,7 @@ const Iterator = require('fs-iterator');
 
 const statsSpys = require('fs-stats-spys');
 
-const TEST_DIR = path.resolve(path.join(__dirname, '..', '..', '.tmp', 'test'));
+const TEST_DIR = path.join(path.join(__dirname, '..', '..', '.tmp', 'test'));
 const STRUCTURE = {
   file1: 'a',
   file2: 'b',

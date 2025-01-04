@@ -1,1 +1,1 @@
-ignores: ["fs-stats-spys", "depcheck", "ts-dev-stack", "@types/*"]
+ignores: ["fs-stats-spys", "@types/*", "@biomejs/*"]

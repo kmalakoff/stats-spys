@@ -1,5 +1,5 @@
-function createSpy() { 
-  function spy() { 
+function createSpy() {
+  function spy() {
     spy.callCount++;
   }
   spy.callCount = 0;
