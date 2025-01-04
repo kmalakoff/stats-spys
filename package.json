@@ -1,6 +1,6 @@
 {
   "name": "fs-stats-spys",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Helper for using sinon spys with fs.Stats",
   "keywords": [
     "fs",
