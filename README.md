@@ -15,8 +15,7 @@ iterator.forEach(
     spys(entry.stats);
   },
   function (err) {
-    assert.ok(!err, err ? err.message : '');
-    assert.equal(spys.dir.callCount, 5);
+      assert.equal(spys.dir.callCount, 5);
     assert.equal(spys.file.callCount, 7);
     assert.equal(spys.link.callCount, 0);
     done();
